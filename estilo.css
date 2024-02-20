@@ -1,0 +1,52 @@
+body {
+    background-color:#2A3BE5;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Media', 'Lucida Sans', Arial, sans-serif;
+}
+.cabecalho {
+    background-color: white;
+    color: #2A3BE5;
+    margin: 5px;
+    display:flex;
+}
+.menu {
+    display: flex;
+    list-style: none;
+
+}
+.inicio {
+    text-align: center;
+}
+.grade {
+    margin: 50px;
+
+}
+.destaque {
+    display: grid;
+    background-color:rgba(54, 117, 235, 0.959) ;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    
+}
+.destaque img {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.promocao {
+    display: grid;
+    background-color:rgba(54, 117, 235, 0.959) ;
+    text-align: center;
+}
+
+.promocao img {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.botao {
+
+}
