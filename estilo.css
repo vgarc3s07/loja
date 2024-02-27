@@ -17,6 +17,9 @@ body {
     align-items: center;
     
 }
+.navegacao {
+    display:flex;
+}
 .menu {
     display: flex;
     list-style: none;
@@ -29,47 +32,52 @@ body {
 .menu li:first-child {
     margin-left: 0;
 }
-
-.menu img {
-    max-width: 100px;
-    max-height: 100px;
+.menu ul {
+    list-style: none;
+    display: inline-flex;
 }
+.menu img {
+    max-width: 70px;
+    min-height: 70px;
+    padding-right: 25px;
+}    
 .logo img {
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 150px;
+    max-height: 150px;
 }
 .inicio {
     text-align: center;
 }
+.titulo {
+    text-align: center;
+    text-decoration: underline;
+    margin: 10px;
+}
 .grade {
-    margin: 50px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, mimax(300px, 1fr));
-    gap:20px;
-
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap:10px;
 
 }
-.destaque {
-    display: grid;
+.produto {
     background-color:rgba(54, 117, 235, 0.959) ;
     text-align: center;
-    margin-bottom: 25px;
-    margin-left: auto;
-    margin-right: auto;
     padding: 10px;
-    padding-bottom: 10px;
-    
+    padding-bottom: 20px;
+    margin: 5px;
+    align-items: center;
 }
-.destaque img {
+.produto img {
     width: 100%;
     margin-bottom: 10px;
     margin-top: 30px;
+    height: 70%;
+    
 }
 .promocao {
     display: grid;
     background-color:rgba(54, 117, 235, 0.959) ;
     text-align: center;
-    margin-bottom: 25px;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
@@ -84,9 +92,20 @@ body {
     color: #000;
 }
 
-.navegacao {
-    display: inline-flex;
+.rodape {
+    margin: 5px;
+    background-color: #FFFFFF;
+    color: #000;
+    padding: 20px;
+    padding-bottom: 5px;
 }
+.icone img {
+    align-items:self-end;
+    width: 50px;
+    height: 50px;
+    
+}
+
 
 
 
