@@ -37,8 +37,8 @@ body {
     display: inline-flex;
 }
 .menu img {
-    max-width: 70px;
-    min-height: 70px;
+    max-width: 35px;
+    min-height: 35px;
     padding-right: 25px;
 }    
 .logo img {
@@ -83,6 +83,10 @@ body {
     display: inline-flex;
     align-items: center;
     padding-top: 5px;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    justify-content: center;
 }
 
 .rodape {
@@ -91,6 +95,7 @@ body {
     color: #000;
     padding: 20px;
     padding-bottom: 5px;
+    margin-top: 10px;
     
 }
 .icone img {
@@ -147,6 +152,67 @@ body {
 }
 
 @media (min-width:768px) {
+    .menu img {
+        max-width: 70px;
+        min-height: 70px;
+    }
+    .contato {
+        width: 600px;
+        font-size: 20px;
+        padding: 28px;
+        max-width: 320px;
+    }
+    .campo {
+        font-size: 20px;
+        width: 600px;
+        height: 40px;
+
+        
+    }
+    .contato {
 
 
+        width: 600px;
+        padding: 45px;
+        max-width: 320px;
+
+    }
+    .botao {
+        width: 300px;
+        
+    }
+
+}
+
+/*Página de contato*/ 
+
+.contato {
+    font-size: 18px;
+    background-color: rgba(54, 117, 235, 0.959);
+    display:block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    max-width: 300px;
+    border-radius: 10px;
+    justify-content: center;
+}
+.rotulo {
+    display: block;
+    margin-bottom: 20px;
+}
+.campo {
+    background-color: white;
+    display: block;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px #000000 solid;
+    border-radius: 10px;
+}
+textarea.campo {
+    height: 150px;
+    padding: 10px;
 }
